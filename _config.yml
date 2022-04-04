@@ -1,3 +1,11 @@
-theme: jekyll-theme-cayman
+theme: just-the-docs
 title: Achilio Help Center
 description: Achilio Help center and documentation
+markdown: kramdown
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+# ga_tracking: UA-5555555-55
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)

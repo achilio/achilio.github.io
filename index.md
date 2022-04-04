@@ -1,37 +1,50 @@
-## Welcome to GitHub Pages
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Achilio Help center and documentation to help you manage your BigQuery with us."
+permalink: /
+---
 
-You can use the [editor on GitHub](https://github.com/achilio/achilio.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+<script>
+  !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://cdn.segment.com/analytics.js/v1/" + key + "/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics._writeKey="MNNlx43X9FU4JAC1tGMc89Rw99HvVcsQ";;analytics.SNIPPET_VERSION="4.15.3";
+  analytics.load("MNNlx43X9FU4JAC1tGMc89Rw99HvVcsQ");
+  analytics.page();
+  }}();
+</script>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<!-- # Home
+Not working
 
-### Markdown
+## Table of contents
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+{: .no_toc .text-delta }
 
-```markdown
-Syntax highlighted code block
+1. TOC
+   {:toc} -->
 
-# Header 1
-## Header 2
-### Header 3
+## Welcome to Achilio documentation
 
-- Bulleted
-- List
+Use Achilio to help you improve your productivity and quality of life as a Data engineer.
 
-1. Numbered
-2. List
+Achilio scans your query history to analyze your usage and give you insights, and make suggestions on how to improve its performances.
 
-**Bold** and _Italic_ and `Code` text
+## Quickstart
 
-[Link](url) and ![Image](src)
-```
+### Connect with your Google account
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+First connect to the Achilio app and login with your Organization Google account
 
-### Jekyll Themes
+**Achilio does not support Google accout with no organization (like gmail.com accounts)**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/achilio/achilio.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Create a connection
+
+-   Click on the connection tab on the nav bar, or click on the hightlighted "create a connection" in the text above
+-   Click on create your first connection to BigQuery
+-   Give it a name, and copy paste the content of the json key of the service account you want to use for Achilio. [More info on service account permissions](google-service-account). Then click on 'Create Connection'
+
+<!-- [Link](url) and ![Image](src) -->
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Achilio? You can contact the support at support@achilio.com and we will help you. You can also join our public Slack channel.
