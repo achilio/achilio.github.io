@@ -1,4 +1,5 @@
-theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+
 title: Achilio Help Center
 description: Achilio Help center and documentation
 markdown: kramdown
